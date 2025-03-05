@@ -1,0 +1,26 @@
+{
+    "visual": {
+        "name": "testFetchMoreData",
+        "displayName": "testFetchMoreData",
+        "guid": "testFetchMoreData9D60139C3CD64D5B9AD719714FD8E27B",
+        "visualClassName": "Visual",
+        "version": "1.0.0.0",
+        "description": "some",
+        "supportUrl": "https://github.com/microsoft",
+        "gitHubUrl": ""
+    },
+    "apiVersion": "5.3.0",
+    "author": {
+        "name": "test",
+        "email": "test@gmail.com"
+    },
+    "assets": {
+        "icon": "assets/icon.png"
+    },
+    "externalJS": null,
+    "style": "style/visual.less",
+    "capabilities": "capabilities.json",
+    "dependencies": null,
+    "stringResources": [],
+    "version": "1.0.0.0"
+}

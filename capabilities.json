@@ -1,0 +1,516 @@
+{
+    "dataRoles": [
+        {
+            "displayName": "Date Hierarchy",
+            "description": "Date Hierarchy supports date hierarchies or separate time unit columns. Column names must correspond to the desired time units for the X-Axis.\nSupported name formats are:\n- single units: ms, millisecond, milliseconds, sec, second, seconds, min, minute, minutes, hour, hours, day, days, dayofmonth, mon, month, months, quarter, quarters, year, years, decade \n- x <unit> for multiple units (e.g. 5 s, 15 minutes, etc.) where x is a whole number and <unit> is one of the following: s, seconds, m, minutes, h hours, w, week, y, years.",
+            "name": "Category",
+            "kind": "Grouping"
+        },
+        {
+            "displayName": "Date Value (X-Axis)",
+            "name": "DateValue",
+            "kind": "Measure"
+        },
+        {
+            "displayName": "Legend",
+            "name": "Legend",
+            "kind": "Grouping"
+        },
+        {
+            "displayName": "Series 1",
+            "name": "Values1",
+            "kind": "Measure"
+        },
+        {
+            "displayName": "Series 2",
+            "name": "Values2",
+            "kind": "Measure"
+        },
+        {
+            "displayName": "Series 3",
+            "name": "Values3",
+            "kind": "Measure"
+        },
+        {
+            "displayName": "Series 4",
+            "name": "Values4",
+            "kind": "Measure"
+        },
+        {
+            "displayName": "Series 5",
+            "name": "Values5",
+            "kind": "Measure"
+        },
+        {
+            "displayName": "Series 6",
+            "name": "Values6",
+            "kind": "Measure"
+        },
+        {
+            "displayName": "Series 7",
+            "name": "Values7",
+            "kind": "Measure"
+        },
+        {
+            "displayName": "Series 8",
+            "name": "Values8",
+            "kind": "Measure"
+        },
+        {
+            "displayName": "Series 9",
+            "name": "Values9",
+            "kind": "Measure"
+        },
+        {
+            "displayName": "Series 10",
+            "name": "Values10",
+            "kind": "Measure"
+        },
+        {
+            "displayName": "Series 11",
+            "name": "Values11",
+            "kind": "Measure"
+        },
+        {
+            "displayName": "Series 12",
+            "name": "Values12",
+            "kind": "Measure"
+        },
+        {
+            "displayName": "Series 13",
+            "name": "Values13",
+            "kind": "Measure"
+        },
+        {
+            "displayName": "Series 14",
+            "name": "Values14",
+            "kind": "Measure"
+        },
+        {
+            "displayName": "Series 15",
+            "name": "Values15",
+            "kind": "Measure"
+        },
+        {
+            "displayName": "Series 16",
+            "name": "Values16",
+            "kind": "Measure"
+        },
+        {
+            "displayName": "Series 17",
+            "name": "Values17",
+            "kind": "Measure"
+        },
+        {
+            "displayName": "Series 18",
+            "name": "Values18",
+            "kind": "Measure"
+        },
+        {
+            "displayName": "Series 19",
+            "name": "Values19",
+            "kind": "Measure"
+        },
+        {
+            "displayName": "Series 20",
+            "name": "Values20",
+            "kind": "Measure"
+        },
+        {
+            "displayName": "Series 21",
+            "name": "Values21",
+            "kind": "Measure"
+        },
+        {
+            "displayName": "Series 22",
+            "name": "Values22",
+            "kind": "Measure"
+        },
+        {
+            "displayName": "Series 23",
+            "name": "Values23",
+            "kind": "Measure"
+        },
+        {
+            "displayName": "Series 24",
+            "name": "Values24",
+            "kind": "Measure"
+        },
+        {
+            "displayName": "Series 25",
+            "name": "Values25",
+            "kind": "Measure"
+        },
+        {
+            "displayName": "Tooltip Content",
+            "name": "tooltipContent",
+            "kind": "Measure"
+        }
+
+    ],
+    "objects": {
+        "dataPoint": {
+            "properties": {
+                "defaultColor": {
+                    "type": {
+                        "fill": {
+                            "solid": {
+                                "color": true
+                            }
+                        }
+                    }
+                },
+                "showAllDataPoints": {
+                    "type": {
+                        "bool": true
+                    }
+                },
+                "fill": {
+                    "type": {
+                        "fill": {
+                            "solid": {
+                                "color": true
+                            }
+                        }
+                    }
+                },
+                "fillRule": {
+                    "type": {
+                        "fill": {}
+                    }
+                },
+                 "fontSize": {
+                    "type": {
+                        "formatting": {
+                            "fontSize": true
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "dataViewMappings": [
+        {
+            "conditions": [
+                {
+                    "Category": {
+                        "min": 0,
+                        "max": 9
+                    },
+                    "DateValue": {
+                        "min": 0,
+                        "max": 1
+                    },
+                    "Legend": {
+                        "min": 0,
+                        "max": 1
+                    },
+                    "Values1": {
+                        "min": 0,
+                        "max": 1
+                    },
+                    "Values2": {
+                        "min": 0,
+                        "max": 1
+                    },
+                    "Values3": {
+                        "min": 0,
+                        "max": 1
+                    },
+                    "Values4": {
+                        "min": 0,
+                        "max": 1
+                    },
+                    "Values5": {
+                        "min": 0,
+                        "max": 1
+                    },
+                    "Values6": {
+                        "min": 0,
+                        "max": 1
+                    },
+                    "Values7": {
+                        "min": 0,
+                        "max": 1
+                    },
+                    "Values8": {
+                        "min": 0,
+                        "max": 1
+                    },
+                    "Values9": {
+                        "min": 0,
+                        "max": 1
+                    },
+                    "Values10": {
+                        "min": 0,
+                        "max": 1
+                    },
+                    "Values11": {
+                        "min": 0,
+                        "max": 1
+                    },
+                    "Values12": {
+                        "min": 0,
+                        "max": 1
+                    },
+                    "Values13": {
+                        "min": 0,
+                        "max": 1
+                    },
+                    "Values14": {
+                        "min": 0,
+                        "max": 1
+                    },
+                    "Values15": {
+                        "min": 0,
+                        "max": 1
+                    },
+                    "Values16": {
+                        "min": 0,
+                        "max": 1
+                    },
+                    "Values17": {
+                        "min": 0,
+                        "max": 1
+                    },
+                    "Values18": {
+                        "min": 0,
+                        "max": 1
+                    },
+                    "Values19": {
+                        "min": 0,
+                        "max": 1
+                    },
+                    "Values20": {
+                        "min": 0,
+                        "max": 1
+                    },
+                    "Values21": {
+                        "min": 0,
+                        "max": 1
+                    },
+                    "Values22": {
+                        "min": 0,
+                        "max": 1
+                    },
+                    "Values23": {
+                        "min": 0,
+                        "max": 1
+                    },
+                    "Values24": {
+                        "min": 0,
+                        "max": 1
+                    },
+                    "Values25": {
+                        "min": 0,
+                        "max": 1
+                    },
+                    "tooltipContent": {
+                        "min": 0
+                    }
+                }
+            ],
+            "matrix": {
+                "rows": {
+                    "for": {
+                        "in": "Category"
+                    },
+                    "dataReductionAlgorithm": {
+                        "window": {
+                            "count": 30000
+                        }
+                    }
+                },
+                "columns": {
+                    "for": {
+                        "in": "Legend"
+                    },
+                    "dataReductionAlgorithm": {
+                        "top": {
+                            "count": 100
+                        }
+                    }
+                },
+                "values": {
+                    "select": [
+                        {
+                            "for": {
+                                "in": "DateValue"
+                            }
+                        },
+                        {
+                            "for": {
+                                "in": "Values1"
+                            }
+                        },
+                        {
+                            "for": {
+                                "in": "Values2"
+                            }
+                        },
+                        {
+                            "for": {
+                                "in": "Values3"
+                            }
+                        },
+                        {
+                            "for": {
+                                "in": "Values4"
+                            }
+                        },
+                        {
+                            "for": {
+                                "in": "Values5"
+                            }
+                        },
+                        {
+                            "for": {
+                                "in": "Values6"
+                            }
+                        },
+                        {
+                            "for": {
+                                "in": "Values7"
+                            }
+                        },
+                        {
+                            "for": {
+                                "in": "Values8"
+                            }
+                        },
+                        {
+                            "for": {
+                                "in": "Values9"
+                            }
+                        },
+                        {
+                            "for": {
+                                "in": "Values10"
+                            }
+                        },
+                        {
+                            "for": {
+                                "in": "Values11"
+                            }
+                        },
+                        {
+                            "for": {
+                                "in": "Values12"
+                            }
+                        },
+                        {
+                            "for": {
+                                "in": "Values13"
+                            }
+                        },
+                        {
+                            "for": {
+                                "in": "Values14"
+                            }
+                        },
+                        {
+                            "for": {
+                                "in": "Values15"
+                            }
+                        },
+                        {
+                            "for": {
+                                "in": "Values16"
+                            }
+                        },
+                        {
+                            "for": {
+                                "in": "Values17"
+                            }
+                        },
+                        {
+                            "for": {
+                                "in": "Values18"
+                            }
+                        },
+                        {
+                            "for": {
+                                "in": "Values19"
+                            }
+                        },
+                        {
+                            "for": {
+                                "in": "Values20"
+                            }
+                        },
+                        {
+                            "for": {
+                                "in": "Values21"
+                            }
+                        },
+                        {
+                            "for": {
+                                "in": "Values22"
+                            }
+                        },
+                        {
+                            "for": {
+                                "in": "Values23"
+                            }
+                        },
+                        {
+                            "for": {
+                                "in": "Values24"
+                            }
+                        },
+                        {
+                            "for": {
+                                "in": "Values25"
+                            }
+                        },
+                        {
+                            "for": {
+                                "in": "tooltipContent"
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ],
+    "subtotals": {
+        "matrix": {
+            "rowSubtotals": {
+                "propertyIdentifier": {
+                    "objectName": "subTotals",
+                    "propertyName": "rowSubtotals"
+                },
+                "defaultValue": true
+            },
+            "rowSubtotalsPerLevel": {
+                "propertyIdentifier": {
+                    "objectName": "subTotals",
+                    "propertyName": "perRowLevel"
+                },
+                "defaultValue": false
+            },
+            "columnSubtotals": {
+                "propertyIdentifier": {
+                    "objectName": "subTotals",
+                    "propertyName": "columnSubtotals"
+                },
+                "defaultValue": true
+            },
+            "columnSubtotalsPerLevel": {
+                "propertyIdentifier": {
+                    "objectName": "subTotals",
+                    "propertyName": "perColumnLevel"
+                },
+                "defaultValue": false
+            },
+            "levelSubtotalEnabled": {
+                "propertyIdentifier": {
+                    "objectName": "subTotals",
+                    "propertyName": "levelSubtotalEnabled"
+                },
+                "defaultValue": true
+            }
+        }
+    },
+    "privileges": []
+}
